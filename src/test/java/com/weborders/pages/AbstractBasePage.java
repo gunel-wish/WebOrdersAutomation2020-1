@@ -44,4 +44,8 @@ public abstract class AbstractBasePage {
         String locator = "//a[text()='" + component + "']";
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))).click();
     }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
